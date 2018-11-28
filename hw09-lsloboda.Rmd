@@ -10,7 +10,7 @@ always_allow_html: yes
 
 ## Objective
 
-The objective of the assignment is to add an R file and an Rmd file to a pre-seeded pipeline, originally found [here]("https://stat545.com/automation04_make-activity.html").
+The objective of the assignment is to add an R file and an Rmd file to a pre-seeded pipeline, originally found [here]("https://github.com/STAT545-UBC/make-activity").
 
 ## Method
 
