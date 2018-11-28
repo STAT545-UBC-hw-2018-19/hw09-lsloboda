@@ -125,126 +125,40 @@ $(document).ready(function () {
 </div>
 
 
-<p>We using a script to count how many words start with every letter in <em>letterCount.R</em>. We report the output here in table format. First we load the libraries:</p>
+<p>We used a script to count how many words start with every letter in <em>letterCount.R</em>. We report the output here in table format:</p>
 <pre class="r"><code>suppressPackageStartupMessages(library(readr))
 suppressPackageStartupMessages(library(knitr))
 suppressPackageStartupMessages(library(tidyverse))</code></pre>
 <pre class="r"><code>letterCount &lt;- read.table(&quot;letterCount.tsv&quot;)
-kable(letterCount, col.names = &quot;Count&quot;)</code></pre>
-<table>
-<thead>
-<tr class="header">
-<th></th>
-<th align="right">Count</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>a</td>
-<td align="right">197044</td>
-</tr>
-<tr class="even">
-<td>b</td>
-<td align="right">39054</td>
-</tr>
-<tr class="odd">
-<td>c</td>
-<td align="right">100962</td>
-</tr>
-<tr class="even">
-<td>d</td>
-<td align="right">67266</td>
-</tr>
-<tr class="odd">
-<td>e</td>
-<td align="right">234490</td>
-</tr>
-<tr class="even">
-<td>f</td>
-<td align="right">23696</td>
-</tr>
-<tr class="odd">
-<td>g</td>
-<td align="right">46089</td>
-</tr>
-<tr class="even">
-<td>h</td>
-<td align="right">63238</td>
-</tr>
-<tr class="odd">
-<td>i</td>
-<td align="right">200594</td>
-</tr>
-<tr class="even">
-<td>j</td>
-<td align="right">2685</td>
-</tr>
-<tr class="odd">
-<td>k</td>
-<td align="right">15628</td>
-</tr>
-<tr class="even">
-<td>l</td>
-<td align="right">129431</td>
-</tr>
-<tr class="odd">
-<td>m</td>
-<td align="right">68815</td>
-</tr>
-<tr class="even">
-<td>n</td>
-<td align="right">158098</td>
-</tr>
-<tr class="odd">
-<td>o</td>
-<td align="right">170107</td>
-</tr>
-<tr class="even">
-<td>p</td>
-<td align="right">75886</td>
-</tr>
-<tr class="odd">
-<td>q</td>
-<td align="right">3657</td>
-</tr>
-<tr class="even">
-<td>r</td>
-<td align="right">160307</td>
-</tr>
-<tr class="odd">
-<td>s</td>
-<td align="right">137173</td>
-</tr>
-<tr class="even">
-<td>t</td>
-<td align="right">151286</td>
-</tr>
-<tr class="odd">
-<td>u</td>
-<td align="right">87181</td>
-</tr>
-<tr class="even">
-<td>v</td>
-<td align="right">19820</td>
-</tr>
-<tr class="odd">
-<td>w</td>
-<td align="right">13538</td>
-</tr>
-<tr class="even">
-<td>x</td>
-<td align="right">6841</td>
-</tr>
-<tr class="odd">
-<td>y</td>
-<td align="right">51544</td>
-</tr>
-<tr class="even">
-<td>z</td>
-<td align="right">8232</td>
-</tr>
-</tbody>
-</table>
+colnames(letterCount) &lt;- c(&quot;Count&quot;)
+letterCount</code></pre>
+<pre><code>##    Count
+## a 197044
+## b  39054
+## c 100962
+## d  67266
+## e 234490
+## f  23696
+## g  46089
+## h  63238
+## i 200594
+## j   2685
+## k  15628
+## l 129431
+## m  68815
+## n 158098
+## o 170107
+## p  75886
+## q   3657
+## r 160307
+## s 137173
+## t 151286
+## u  87181
+## v  19820
+## w  13538
+## x   6841
+## y  51544
+## z   8232</code></pre>
 
 
 

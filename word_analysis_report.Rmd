@@ -5,12 +5,7 @@ output:
     keep_md: yes
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
-
-We using a script to count how many words start with every letter in *letterCount.R*. We report the output here in table format.
-First we load the libraries:
+We used a script to count how many words start with every letter in *letterCount.R*. We report the output here in table format:
 
 ```{r}
 suppressPackageStartupMessages(library(readr))
@@ -19,8 +14,8 @@ suppressPackageStartupMessages(library(tidyverse))
 
 ```
 
-
 ```{r load-table}
 letterCount <- read.table("letterCount.tsv")
-kable(letterCount, col.names = "Count")
+colnames(letterCount) <- c("Count")
+letterCount
 ```
