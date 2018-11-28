@@ -1,15 +1,16 @@
 ---
 title: "hw09-lsloboda"
-author: "Lsloboda"
-date: "November 27, 2018"
-output: html_document
+output:
+   github_document:
+      toc: true
+always_allow_html: yes
 ---
 
 # Automating a Pipeline
 
 ## Objective
 
-The objective of the assignment is to add an R file and an Rmd file to a pre-seeded pipeline, originally found [here]("http://stat545.com/automation04_make-activity.html").
+The objective of the assignment is to add an R file and an Rmd file to a pre-seeded pipeline, originally found [here]("https://stat545.com/automation04_make-activity.html").
 
 ## Method
 
