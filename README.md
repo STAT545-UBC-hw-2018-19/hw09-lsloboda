@@ -1,4 +1,4 @@
-hw09 - make-activity
+hw09 - make activity
 =============
 
 ## Overview
@@ -6,7 +6,7 @@ hw09 - make-activity
 **This repo contains the files relevant to STAT 545 Homework 09.**
 The homework file is located [here](https://github.com/STAT545-UBC-students/hw09-lsloboda/blob/master/hw09-lsloboda.md).
 
-The file used to pre-seed this repo is found [here]("https://github.com/STAT545-UBC/make-activity").
+The file used to pre-seed this repo is found [here](https://github.com/STAT545-UBC/make-activity).
 
 ## Purpose
 

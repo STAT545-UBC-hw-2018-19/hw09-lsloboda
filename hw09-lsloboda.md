@@ -14,7 +14,7 @@ Automating a Pipeline
 Objective
 ---------
 
-The objective of the assignment is to add an R file and an Rmd file to a pre-seeded pipeline, originally found [here](%22https://github.com/STAT545-UBC/make-activity%22).
+The objective of the assignment is to add an R file and an Rmd file to a pre-seeded pipeline, originally found [here](https://github.com/STAT545-UBC/make-activity).
 
 Method
 ------
