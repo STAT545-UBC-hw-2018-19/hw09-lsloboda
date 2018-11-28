@@ -1,4 +1,3 @@
-#Count number of letters in a word
 
 #suppressPackageStartupMessages(library(readr))
 
