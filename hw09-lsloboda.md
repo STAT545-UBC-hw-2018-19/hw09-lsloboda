@@ -33,7 +33,7 @@ I updated the Makefile by:
 Scripts
 -------
 
-The script letterCount.R counts the number of letters in all words in word.txt and write them to a .tsv as a data frame:
+The script [letterCount.R](https://github.com/STAT545-UBC-students/hw09-lsloboda/blob/master/letterCount.R) counts the number of letters in all words in word.txt and write them to [letterCount.tsv](https://github.com/STAT545-UBC-students/hw09-lsloboda/blob/master/letterCount.tsv) as a data frame:
 
 ``` r
 #words <- readLines("words.txt")
@@ -43,7 +43,7 @@ The script letterCount.R counts the number of letters in all words in word.txt a
 #write.table(letterCount, "letterCount.tsv", sep = "\t") #automatically converts to a data frame
 ```
 
-The markdown file word\_analysis\_report.Rmd output the results summary from letterCount.R:
+The markdown file [word\_analysis\_report.Rmd](https://github.com/STAT545-UBC-students/hw09-lsloboda/blob/master/word_analysis_report.Rmd) outputs the results summary from letterCount.R to [html](https://github.com/STAT545-UBC-students/hw09-lsloboda/blob/master/word_analysis_report.html) and [md](https://github.com/STAT545-UBC-students/hw09-lsloboda/blob/master/word_analysis_report.md) files:
 
 ``` r
 #title: "word_analysis_report"
@@ -62,7 +62,7 @@ The markdown file word\_analysis\_report.Rmd output the results summary from let
 Makefile
 --------
 
-The makefile is updated with instructions regarding the new files, including adding new dependencies, as well as running and cleaning the new files:
+The [makefile](https://github.com/STAT545-UBC-students/hw09-lsloboda/blob/master/Makefile) is updated with instructions regarding the new files, including adding new dependencies, as well as running and cleaning the new files:
 
 ``` r
 #all: report.html word_analysis_report.html
